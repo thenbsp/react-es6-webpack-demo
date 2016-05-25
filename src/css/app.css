@@ -1,0 +1,96 @@
+#container {
+    width: 800px;
+    margin: 20px auto;
+}
+#container .comment-box .comment-info {
+    margin: 0 0 20px 0;
+    position: relative;
+}
+#container .comment-box .comment-info h1 {
+    font-size: 38px;
+    line-height: 1;
+    margin: 0;
+}
+#container .comment-box .comment-info p {
+    color: #999;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+#container .comment-box .comment-info p strong {
+    color: #d60000;
+    font-family: Georgia;
+    font-size: 20px;
+}
+#container .comment-list {
+    border: 1px solid #ddd;
+    list-style-type: none;
+    background-color: #ffffee;
+    margin: 0;
+    padding: 0;
+}
+#container .comment-list .comment-item {
+    position: relative;
+    margin: 0;
+    padding: 20px 20px 20px 100px;
+    border-bottom: 1px solid #ddd;
+}
+#container .comment-list .comment-item:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+#container .comment-list .comment-item .comment-avatar{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    width: 60px;
+}
+#container .comment-list .comment-item .comment-outer .comment-head {
+    position: relative;
+}
+#container .comment-list .comment-item .comment-outer .comment-head h1 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+#container .comment-list .comment-item .comment-outer .comment-head time {
+    color: #999;
+    font-size: 12px;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#container .comment-list .comment-item .comment-outer .comment-body {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+#container .comment-list .comment-item .comment-outer .comment-foot {
+    text-align: right;
+}
+#container .comment-list .comment-item .comment-outer .comment-foot a {
+    color: #999;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin: 0 0 0 10px;
+    padding: 5px 8px;
+    border-radius: 2px;
+}
+#container .comment-list .comment-item .comment-outer .comment-foot a:hover,
+#container .comment-list .comment-item .comment-outer .comment-foot a:focus {
+    color: #666;
+    border-color: #888;
+    text-decoration: none;
+}
+#container .comment-list .comment-item .comment-outer .comment-foot a.liked {
+    color: #bbb;
+    border-color: #ddd;
+    cursor: default;
+}
+#container .comment-list .comment-item .comment-outer .comment-foot a i {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
